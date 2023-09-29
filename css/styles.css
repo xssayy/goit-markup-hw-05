@@ -497,13 +497,18 @@ nav .nav-menu .page-link:active {
   fill: #f4f4fd;
 }
 
-.subscribe-form-container .item-text {
+.footer.section .subscribe-form-container .item-text {
   margin-bottom: 16px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .subscribe-form-container .subscribe-form {
   display: flex;
   gap: 24px;
+}
+
+.subscribe-form .email-label {
 }
 
 .subscribe-form .email-field {
@@ -515,13 +520,13 @@ nav .nav-menu .page-link:active {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  padding-left: 16px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-form .email-field::placeholder {
   color: #ffffff;
-  padding-left: 16px;
 }
 
 .subscribe-form .subscribe-button {
