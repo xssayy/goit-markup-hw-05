@@ -453,6 +453,7 @@ nav .nav-menu .page-link:active {
 }
 
 .footer.section .social-media-footer-cont {
+  margin-right: 80px;
 }
 
 .footer.section .social-media-footer-cont .item-text {
@@ -494,4 +495,52 @@ nav .nav-menu .page-link:active {
 
 .footer-social-media-icon {
   fill: #f4f4fd;
+}
+
+.subscribe-form-container .item-text {
+  margin-bottom: 16px;
+}
+
+.subscribe-form-container .subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-form .email-field {
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.subscribe-form .email-field::placeholder {
+  color: #ffffff;
+  padding-left: 16px;
+}
+
+.subscribe-form .subscribe-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border-radius: 4px;
+
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
+  fill: #ffffff;
 }
