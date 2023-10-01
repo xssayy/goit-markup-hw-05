@@ -571,7 +571,7 @@ nav .nav-menu .page-link:active {
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: all;
+  pointer-events: auto;
 }
 
 .modal-window {
@@ -678,9 +678,9 @@ nav .nav-menu .page-link:active {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-field:hover .input-icon,
-.input-field:active .input-icon,
-.input-field:focus .input-icon {
+.input-field:hover + .input-icon,
+.input-field:active + .input-icon,
+.input-field:focus + .input-icon {
   fill: #4d5ae5;
 }
 
@@ -709,6 +709,7 @@ nav .nav-menu .page-link:active {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   fill: transparent;
+  margin-right: 8px;
 
   display: inline-flex;
   align-items: center;
@@ -723,13 +724,10 @@ nav .nav-menu .page-link:active {
 .checkmark-icon-box .checkmark-icon {
 }
 
-.checkbox-input:checked .checkmark-icon-box {
+.checkbox-input:checked + .modal-window-label .checkmark-icon-box {
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
-}
-
-.privacy-checkbox-cont .modal-window-label {
 }
 
 .privacy-policy-link {
